@@ -450,7 +450,7 @@ a:visted {
 
 /***************** DESKTOP ************************/
 
-@media (min-width: 700px) {
+@media (min-width: 1050px) {
 
 	.nav-name, .navigation li {
 		font-size: 25px;
