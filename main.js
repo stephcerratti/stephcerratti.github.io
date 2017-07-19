@@ -34,6 +34,14 @@ $('a[href*="#"]')
     }
   });
 
+  $('#type-it').typeIt({
+     strings: ["Web Developer", "World Traveler", "Problem Solver", "Sunshine Lover", "Creator"],
+     speed: 80,
+     breakLines: false,
+     autoStart: false,
+     loop: true, 
+});
+
 $('.owl-carousel').owlCarousel({
     // rtl:true,
     loop:false,
