@@ -1,5 +1,6 @@
 body {
 	font-family: sans-serif;
+	font-weight: lighter;
 }
 
 .white-text {
@@ -447,28 +448,13 @@ a:visted {
 
 /****************MEDIA QUERIES**********************/
 
-/***************** TABLET************************/
-
-@media (min-width: 600px) {
-
-
-
-
-
-
-
-
-
-}
-
 /***************** DESKTOP ************************/
 
-@media (min-width: 1050px) {
+@media (min-width: 700px) {
 
 	.nav-name, .navigation li {
 		font-size: 25px;
 	}
-
 
 	h1 {
 		font-size: 6em;
