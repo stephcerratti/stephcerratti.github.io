@@ -233,7 +233,7 @@ h2 {
 }
 
 .about-info {
-	text-align: center;
+	text-align: justify;
 }
 
 .about-image {
@@ -494,8 +494,12 @@ a:visted {
 	}
 
 	.language-icons {
-		width: 60%;
+		max-width: 60%;
 		font-size: 5em;
+	}
+
+	.icon {
+		padding: 25px;
 	}
 
 	.work {
