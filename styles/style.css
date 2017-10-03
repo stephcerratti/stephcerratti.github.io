@@ -55,8 +55,14 @@ a {
 	margin: 1em 1em;
 	font-size: 40px;
 	text-decoration: none;
-
+	transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
 }
+
+/*.navigation li:hover {
+	color: black;
+}*/
 
 
 /**************** MAIN PAGE **********************/
