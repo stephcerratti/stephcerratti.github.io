@@ -188,7 +188,7 @@ h2 {
 .about-image {
 	opacity: .7;
 	width: 75%;
-	/*border-radius: 50%;*/
+	border-radius: 50%;
 }
 
 h5 {
@@ -225,7 +225,7 @@ h4 {
 .icon {
 	padding: 17px;
 	-webkit-transition: color;
-    transition: color;
+    transition: color .2s ease-in-out;
 }
 
 .icon:hover {
@@ -422,15 +422,17 @@ a:visted {
 	}
 
 	.about-copy {
-		width: 50%;
+		width: 70%;
 	}
 
 	.about-image-container {
-		width: 50%;
+		width: 30%;
+		margin: 0 auto;
 	}
 
 	.about-image {
 	opacity: .7;
+	border-radius: 50%;
 	}
 
 	.language-icons {
@@ -479,7 +481,7 @@ a:visted {
 	}
 
 	.contact {
-		background: linear-gradient(rgba(255,189,74,.8) 100%, transparent), url("../images/flatlay.jpg") no-repeat bottom fixed; 
+		background: linear-gradient(rgba(255,189,74,.9) 100%, transparent), url("../images/flatlay.jpg") no-repeat bottom fixed; 
 	}
 
 	.contact-text {
@@ -489,7 +491,7 @@ a:visted {
 	}
 
 	.contact-form {
-		width: 60%;
+		width: 50%;
 	}
 
 	.form-title {
@@ -498,8 +500,20 @@ a:visted {
     	margin-top: 5%;
 	}
 
+	.form-input {
+		padding: 10px 5px;
+	}
+
 	.social-icons {
 		font-size: 2em;
+	}
+
+	.social-icons i {
+		transition: all .2s ease-in-out;
+	}
+
+	.social-icons i:hover {
+		transform: scale(1.1);
 	}
 }
 
